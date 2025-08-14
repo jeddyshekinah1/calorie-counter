@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calorie Counter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1><img src="images.png" alt="C logo" class="logo"> Calorie Counter</h1>
+
+  <!-- Form -->
+  <form id="food-form">
+    <input type="text" id="food-name" placeholder="Enter food name" required>
+    <input type="number" id="food-calories" placeholder="Enter calories (optional)">
+    <button type="submit">Add Food</button>
+  </form>
+
+  <!-- Progress Bar -->
+  <div class="progress-container">
+    <p>Daily Goal: <span id="calorie-goal">2000</span> cal</p>
+    <div class="progress-bar">
+    <div id="progress-bar"></div>
+    </div>
+  </div>
+
+  <!-- Food List -->
+  <ul id="food-list"></ul>
+
+  <!-- Total Calories -->
+  <div class="total-calories">
+    <span>Total Calories:</span>
+    <span id="total-calories">0</span>
+  </div>
+
+  <!-- Reset Button -->
+  <button id="reset-btn" class="reset-btn">Reset</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
