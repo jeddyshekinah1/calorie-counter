@@ -11,4 +11,4 @@ Tech Stack used includes;
 2. CSS
 3. JavaScript (Fetch API)
 
-Click here to try it - https://github.com/jeddyshekinah1/calorie-counter
+Click here to try it -  https://jeddyshekinah1.github.io/calorie-counter/
